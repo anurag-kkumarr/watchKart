@@ -1,0 +1,123 @@
+@import "/style/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800;900&display=swap');
+
+/* @media screen and (min-width:600px){
+
+} */
+.nav-bar {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    border: 1px solid gray;
+    background-color: aquamarine;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+@media screen and (max-width: 700px){
+    .nav-bar {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .search-bar {
+        margin-bottom: var(--size-one-five);
+    }
+}
+.nav-cta {
+    display: flex;
+    gap: var(--size-one-five);
+}
+
+.header {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+.search-bar {
+    display: flex;
+    gap: 0.2rem;
+}
+.input-box  {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    outline: none;
+}
+.fa-search {
+    font-size: 1.4rem;
+}
+.search-btn{
+    border: 0;
+    background: none;
+}
+.badge {
+    position: relative;
+    width: min-content; 
+}
+.badge>span {
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+}
+.badge-red {
+    background-color: red;
+}
+.badge-ic {
+    width: var(--size-one);
+    height: var(--size-one);
+    font-size: 0.8rem;
+    font-weight: bold;
+    left: 2.4rem;
+    bottom: 2.2rem;
+    color: white;
+}
+.login-btn {
+    width: var(--size-four-five);
+    border: 1px solid gray;
+    padding: var(--size-one);
+    background-color: blue;
+    border-radius: var(--size-one);
+    text-align: center;
+    font-size: var(--size-one-two);
+    font-weight: bold;
+}
+section {
+    margin-bottom: var(--size-two);
+}
+
+.link-btn {
+    color: white;
+}
+
+
+.hero-img {
+    width: 100%;
+    height: 500px;
+}
+.prod-genre {
+    display: flex;
+    justify-content: center;
+}
+.watch-genre {
+    display: flex;
+    flex-direction: column;
+}
+.watch-wm, .watch-m {
+    width: 80%;
+    max-width: 600px;
+    height: 300px;
+    max-height: 400px;
+    margin-bottom: var(--size-two);
+}
+.prod-gen-title {
+    border: 1px solid black;
+    background-color: black;
+    color: var(--white);
+    width: 40%;
+    max-width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
