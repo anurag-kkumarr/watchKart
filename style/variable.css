@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800;900&display=swap');
 :root {
     /* basic colors*/
+    --color-primary: rgb(77, 105, 96);
+
+    --blue: blue;
     --black:#000000;	
     --silver:#c0c0c0;	
     --gray:#808080;
@@ -19,6 +22,7 @@
     --blue:#0000ff;	
     --teal:#008080;	
     --aqua:#00ffff;
+    --gray: gray;
 
 
 

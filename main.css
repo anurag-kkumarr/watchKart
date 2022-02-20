@@ -8,8 +8,8 @@
     display: flex;
     width: 100%;
     padding: 1rem;
-    border: 1px solid gray;
-    background-color: aquamarine;
+    border: 1px solid var(--gray);
+    background-color: var(--color-primary);
     justify-content: space-between;
     margin-bottom: 2rem;
 }
@@ -31,20 +31,20 @@
 }
 
 .header {
-    font-size: 2.5rem;
+    font-size: var(--size-two-five);
     font-weight: 700;
-    color: white;
+    color: var(--white);
     font-family: 'Playfair Display', serif;
 }
 .search-bar {
     display: flex;
-    gap: 0.2rem;
+    gap: var(--size-zero-two);
 }
 .input-box  {
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid var(--black);
     border-radius: 1rem;
-    padding: 0.5rem;
+    padding: var(--size-zero-five);
     outline: none;
 }
 .fa-search {
@@ -64,34 +64,37 @@
     text-align: center;
 }
 .badge-red {
-    background-color: red;
+    background-color: var(--red);
 }
 .badge-ic {
     width: var(--size-one);
     height: var(--size-one);
     font-size: 0.8rem;
     font-weight: bold;
-    left: 1.5rem;
-    bottom: 1.5rem;
-    color: white;
+    left: var(--size-one-five);
+    bottom: var(--size-one-five);
+    color: var(--white);
 }
 .login-btn {
     width: var(--size-three);
     height: var(--size-two);
-    border: 1px solid gray;
+    border: 1px solid var(--gray);
     padding: var(--size-zero-two);
-    background-color: blue;
+    background-color: var(--white);
     border-radius: var(--size-zero-five);
     text-align: center;
     font-size: var(--size-one);
     font-weight: bold;
+}
+a.login-btn {
+    color: var(--color-primary);
 }
 section {
     margin-bottom: var(--size-two);
 }
 
 .link-btn {
-    color: white;
+    color: var(--white);
 }
 
 
@@ -115,8 +118,8 @@ section {
     margin-bottom: var(--size-two);
 }
 .prod-gen-title {
-    border: 1px solid black;
-    background-color: black;
+    border: 1px solid var(--black);
+    background-color: var(--black);
     color: var(--white);
     width: 40%;
     max-width: 600px;

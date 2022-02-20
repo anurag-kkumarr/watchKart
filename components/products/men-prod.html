@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/components/products/men-prod.css">
+    <title>HomePage</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <header class="header">WATCHKART</header>
+        <div class="search-bar"><input type="text" placeholder="search watches and acces.." class="input-box">
+            <button class="search-btn"><i class="fa fa-search"></i></button>
+        </div>
+
+        <div class="nav-cta">
+            <a class="link-btn login-btn" href="">login</a>
+            <a class="link-btn wishlist" href="">
+                <div class="badge-icon-wrap">
+                    <i class="fa-solid fa-heart fa-2x"></i>
+                    <div class="badge"><span class="badge-ic badge-red color-white">2</span></div>
+                </div>
+            </a>
+            <a class="link-btn cart" href="">
+                <div class="badge-icon-wrap">
+                    <i class="fa-solid fa-cart-plus fa-2x"></i>
+                    <div class="badge"><span class="badge-ic badge-red color-white">2</span></div>
+                </div>
+            </a>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        
+        <!-- Side bar menu -->
+        <div class="sidebar">
+            <div class="side-top">
+                <h2 class="side-header">Filter</h2>
+                <button class="clear-btn">Clear All</button>
+            </div>
+
+
+            <ul class="filter-category">
+
+                <h3 class="filter-head">Price</h3>
+                <li class="filter-type"><label for="" class="price-radio"><input type="radio" class="filter"
+                            name="price-rg">Low to High</label></li>
+
+                <li class="spaced-item"><label for="" class="price-radio"><input type="radio" class="filter"
+                            name="price-rg">High to low</label></li>
+            </ul>
+
+            <ul class="filter-category">
+                <h3 class="filter-head">Brands</h3>
+                <li class="filter-type"><label for="" class="brand-cb"><input type="checkbox" class="filter"
+                            name="price-rg">Rolex</label></li>
+
+                <li class="filter-type"><label for="" class="brand-cb"><input type="checkbox" class="filter"
+                            name="price-rg">Titan</label></li>
+
+                <li class="filter-type"><label for="" class="brand-cb"><input type="checkbox" class="filter"
+                            name="price-rg">Sonata</label></li>
+
+                <li class="filter-type"><label for="" class="brand-cb"><input type="checkbox" class="filter"
+                            name="price-rg">Casio</label></li>
+
+                <li class="filter-type"><label for="" class="brand-cb"><input type="checkbox" class="filter"
+                            name="price-rg">Reebok</label></li>
+
+            </ul>
+
+            <ul class="filter-category">
+                <h3 class="filter-head">Design</h3>
+                <li class="filter-type"><label for="" class="design-cb"><input type="checkbox" class="filter"
+                            name="price-rg">Luxury</label></li>
+
+                <li class="filter-type"><label for="" class="design-cb"><input type="checkbox" class="filter"
+                            name="price-rg">Casual</label></li>
+
+                <li class="filter-type"><label for="" class="design-cb"><input type="checkbox" class="filter"
+                            name="price-rg">Fashion</label></li>
+
+                <li class="filter-type"><label for="" class="design-cb"><input type="checkbox" class="filter"
+                            name="price-rg">Wedding</label></li>
+
+                <li class="filter-type"><label for="" class="design-cb"><input type="checkbox" class="filter"
+                            name="price-rg">Sport</label></li>
+
+            </ul>
+
+            <ul class="filter-category">
+                <h3 class="filter-head">Rating</h3>
+                <li class="filter-type"><label for="" class="rating-cb"><input type="checkbox" class="filter"
+                            name="price-rg">5 star & more</label></li>
+
+                <li class="filter-type"><label for="" class="rating-cb"><input type="checkbox" class="filter"
+                            name="price-rg">4 star & more</label></li>
+
+                <li class="filter-type"><label for="" class="rating-cb"><input type="checkbox" class="filter"
+                            name="price-rg">3 star & more</label></li>
+
+                <li class="filter-type"><label for="" class="rating-cb"><input type="checkbox" class="filter"
+                            name="price-rg">2 star & more</label></li>
+
+                <li class="filter-type"><label for="" class="rating-cb"><input type="checkbox" class="filter"
+                            name="price-rg">1 star & more</label></li>
+
+            </ul>
+        </div>
+
+        <!-- Poduct container -->
+        <div class="product-container">
+
+
+            <!-- Product1 -->
+
+            <div class="card-layout">
+                <div class="wrapper-card card-dimension">
+                    <img class="card-img" src="/asset/rolex.jpg" />
+                    <div class="card-header">
+                        <h3 class="card-def">ROLEX WATCH</h3>
+                    </div>
+                    <blockquote class="margin-bottom-zero-five">
+                        OG of all watch
+                    </blockquote>
+                    <p class="margin-bottom-one"><strong>$1800 </strong><small>$2000 </small> <strong>(20%
+                            off)</strong></p>
+
+                    <button class="cart-btn fluid"><i class="fa-solid fa-cart-shopping fa-2x"></i></button>
+
+                    <div class="menu-cotainer"><button class="wish-btn">
+                            <i class="fa fa-heart-o fa-2x wishlist-icon"></i>
+                        </button>
+                        <button class="wish-btn">
+                            <i class="fa fa-share-alt fa-2x"></i>
+                        </button>
+                        <button class="wish-btn">
+                            <i class="fa fa-ellipsis-v fa-2x"></i>
+                        </button></div>
+                </div>
+            </div>
+
+            <!-- Product2 -->
+
+            <div class="card-layout">
+                <div class="wrapper-card card-dimension">
+                    <img class="card-img" src="/asset/rolex.jpg" />
+                    <div class="card-header">
+                        <h3 class="card-def">ROLEX WATCH</h3>
+                    </div>
+                    <blockquote class="margin-bottom-zero-five">
+                        OG of all watch
+                    </blockquote>
+                    <p class="margin-bottom-one"><strong>$1800 </strong><small>$2000 </small> <strong>(20%
+                            off)</strong></p>
+
+                    <button class="cart-btn fluid"><i class="fa-solid fa-cart-shopping fa-2x"></i></i></button>
+                    <div class="menu-cotainer"><button class="wish-btn">
+                            <i class="fa fa-heart-o fa-2x wishlist-icon"></i>
+                        </button>
+                        <button class="wish-btn">
+                            <i class="fa fa-share-alt fa-2x"></i>
+                        </button>
+                        <button class="wish-btn">
+                            <i class="fa fa-ellipsis-v fa-2x"></i>
+                        </button></div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+
+            <div class="card-layout">
+                <div class="wrapper-card card-dimension">
+                    <img class="card-img" src="/asset/rolex.jpg" />
+                    <div class="card-header">
+                        <h3 class="card-def">ROLEX WATCH</h3>
+                    </div>
+                    <blockquote class="margin-bottom-zero-five">
+                        OG of all watch
+                    </blockquote>
+                    <p class="margin-bottom-one"><strong>$1800 </strong><small>$2000 </small> <strong>(20%
+                            off)</strong></p>
+
+                    <button class="cart-btn fluid"><i class="fa-solid fa-cart-shopping fa-2x"></i></i></button>
+                    <div class="menu-cotainer"><button class="wish-btn">
+                            <i class="fa fa-heart-o fa-2x wishlist-icon"></i>
+                        </button>
+                        <button class="wish-btn">
+                            <i class="fa fa-share-alt fa-2x"></i>
+                        </button>
+                        <button class="wish-btn">
+                            <i class="fa fa-ellipsis-v fa-2x"></i>
+                        </button></div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+
+            <div class="card-layout">
+                <div class="wrapper-card card-dimension">
+                    <img class="card-img" src="/asset/rolex.jpg" />
+                    <div class="card-header">
+                        <h3 class="card-def">ROLEX WATCH</h3>
+                    </div>
+                    <blockquote class="margin-bottom-zero-five">
+                        OG of all watch
+                    </blockquote>
+                    <p class="margin-bottom-one"><strong>$1800 </strong><small>$2000 </small> <strong>(20%
+                            off)</strong></p>
+
+                    <button class="cart-btn fluid"><i class="fa-solid fa-cart-shopping fa-2x"></i></i></button>
+                    <div class="menu-cotainer"><button class="wish-btn">
+                            <i class="fa fa-heart-o fa-2x wishlist-icon"></i>
+                        </button>
+                        <button class="wish-btn">
+                            <i class="fa fa-share-alt fa-2x"></i>
+                        </button>
+                        <button class="wish-btn">
+                            <i class="fa fa-ellipsis-v fa-2x"></i>
+                        </button></div>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+
+            <div class="card-layout">
+                <div class="wrapper-card card-dimension">
+                    <img class="card-img" src="/asset/rolex.jpg" />
+                    <div class="card-header">
+                        <h3 class="card-def">ROLEX WATCH</h3>
+                    </div>
+                    <blockquote class="margin-bottom-zero-five">
+                        OG of all watch
+                    </blockquote>
+                    <p class="margin-bottom-one"><strong>$1800 </strong><small>$2000 </small> <strong>(20%
+                            off)</strong></p>
+
+                    <button class="cart-btn fluid"><i class="fa-solid fa-cart-shopping fa-2x"></i></i></button>
+                    <div class="menu-cotainer"><button class="wish-btn">
+                            <i class="fa fa-heart-o fa-2x wishlist-icon"></i>
+                        </button>
+                        <button class="wish-btn">
+                            <i class="fa fa-share-alt fa-2x"></i>
+                        </button>
+                        <button class="wish-btn">
+                            <i class="fa fa-ellipsis-v fa-2x"></i>
+                        </button></div>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+
+            <div class="card-layout">
+                <div class="wrapper-card card-dimension">
+                    <img class="card-img" src="/asset/rolex.jpg" />
+                    <div class="card-header">
+                        <h3 class="card-def">ROLEX WATCH</h3>
+                    </div>
+                    <blockquote class="margin-bottom-zero-five">
+                        OG of all watch
+                    </blockquote>
+                    <p class="margin-bottom-one"><strong>$1800 </strong><small>$2000 </small> <strong>(20%
+                            off)</strong></p>
+
+                    <button class="cart-btn fluid"><i class="fa-solid fa-cart-shopping fa-2x"></i></i></button>
+                    <div class="menu-cotainer"><button class="wish-btn">
+                            <i class="fa fa-heart-o fa-2x wishlist-icon"></i>
+                        </button>
+                        <button class="wish-btn">
+                            <i class="fa fa-share-alt fa-2x"></i>
+                        </button>
+                        <button class="wish-btn">
+                            <i class="fa fa-ellipsis-v fa-2x"></i>
+                        </button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
