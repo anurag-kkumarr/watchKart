@@ -33,7 +33,7 @@
 .header {
     font-size: 2.5rem;
     font-weight: 700;
-    color: white;
+    color: blue;
     font-family: 'Playfair Display', serif;
 }
 .search-bar {
@@ -86,12 +86,15 @@
     font-size: var(--size-one);
     font-weight: bold;
 }
+a.login-btn {
+    color: white;
+}
 section {
     margin-bottom: var(--size-two);
 }
 
 .link-btn {
-    color: white;
+    color: blue;
 }
 
 
