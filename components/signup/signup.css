@@ -1,0 +1,34 @@
+@import "/components/login-page/login.css";
+
+.sign-layout {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 28rem;
+    border: 1px solid var(--black);
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.name-info {
+    font-size: var(--size-one);
+    margin-bottom: var(--size-zero-two);
+    font-weight: bold;
+    margin-right: 6.8rem;
+}
+
+.input-name {
+    width: 15rem;
+    border: 1px solid var(--gray);
+    padding: var(--size-zero-five);
+    margin-bottom: var(--size-zero-two);
+}
+.terms-cond {
+    margin-right: 3.8rem;
+    color: var(--black);
+}
+.pwd-info-cnf {
+    margin-right: 5rem;
+}
