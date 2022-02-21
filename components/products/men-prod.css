@@ -90,9 +90,7 @@
     height: 12rem;
     max-height: 14rem;
 }
-.card-badge {
-  z-index: 1;
-}
+
 .card-badge>span {
   position: relative;
   color: var(--red);
@@ -135,9 +133,6 @@
   .wish-btn {
       margin: var(--size-zero-five) var(--size-two);
       color: var(--gray);
-      fill: var(--red);
   }
-  .wishlist-icon {
-    fill: var(--red);
-  }
+
   
