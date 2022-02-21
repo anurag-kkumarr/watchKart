@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/components/login-page/login.css">
+    <title>HomePage</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <header class="header">WATCHKART</header>
+        <div class="search-bar"><input type="text" placeholder="search watches and acces.." class="input-box">
+        <button class="search-btn"><i class="fa fa-search"></i></button>
+        </div>
+        
+        <div class="nav-cta">
+         <a class="link-btn login-btn" href="">login</a>
+         <a class="link-btn wishlist" href=""><div class="badge-icon-wrap">
+            <i class="fa-solid fa-heart fa-2x"></i>
+           <div class="badge"><span class="badge-ic badge-red color-white">2</span></div>  
+        </div></a>
+         <a class="link-btn cart" href=""><div class="badge-icon-wrap">
+            <i class="fa-solid fa-cart-plus fa-2x"></i>
+           <div class="badge"><span class="badge-ic badge-red color-white">2</span></div>  
+        </div></a>
+        </div>
+    </nav>
+    <main class="login-container">
+
+        <!-- login-form -->
+        <header class="login-header">Login</header>
+
+        <form action="">
+            <div class="login-layout">
+                <div class="email-box">
+                    <div class="email-info">Enter Your email id</div>
+                    <input class="input-email" type="email" name="email" id="email" placeholder="anurag.kkumarr@gmail.com">
+                </div>
+                <div class="pwd-box">
+                    <div class="pwd-info">Enter Your password</div>
+                    <input class="input-pwd" type="password" placeholder="asdfg@123" name="password" id="password">
+                </div>
+                <span><label for="" class="remember-me">
+                    <input type="checkbox" name="remember" id="remember"> Remember me
+                </label></span></br>
+                <button class="log-in-btn">login</button></br>
+                <a href="" class="forgot-btn">Forgot password</a>
+                <div class="new-acct">If you are new here... </div>
+                <button class="log-in-btn">sign up</button></br>
+                
+            </div>
+
+        </form>
+
+        
+    </main>
+</body>
+</html>
