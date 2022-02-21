@@ -1,5 +1,17 @@
 @import "/main.css";
 
+.login-layout {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 25rem;
+    border: 1px solid var(--black);
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 .login-header {
     text-align: center;
     font-size: var(--size-two);
@@ -10,30 +22,20 @@
 }
 .email-info, .pwd-info {
     font-size: var(--size-one);
-    margin-bottom: var(--size-zero-five);
+    margin-bottom: var(--size-zero-two);
     font-weight: bold;
 }
-.login-layout {
-    display: flex;
-    flex-direction: column;
-    width: 40rem;
-    height: 30rem;
-    border: 1px solid var(--black);
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    
+.email-info{
+    margin-right: 6.8rem;
 }
-.email-box {
-    margin-bottom: var(--size-two);
+.pwd-info{
+    margin-right: 6rem;
 }
+
 .input-email, .input-pwd {
     width: 15rem;
     border: 1px solid var(--gray);
     padding: var(--size-zero-five);
-    margin-bottom: var(--size-zero-two);
-}
-div.input-pwd {
     margin-bottom: var(--size-zero-two);
 }
 
@@ -46,16 +48,20 @@ div.input-pwd {
     background-color: var(--color-primary);
     color: var(--white);
     cursor: pointer;
-    margin:var(--size-zero-five ) auto 0 auto;
+    margin:0 auto var(--size-zero-four) auto;
 }
 .remember-me {
     margin-right: 8rem;
-    color: var(--blue);
+    color: var(--black);
 }
 .forgot-btn {
-    margin-top: var(--size-one);
+    
     margin-left: 10rem;
-    margin-bottom: var(--size-two);
+    margin-bottom: var(--size-zero-five);
     text-decoration: underline;
+    color: var(--color-primary);
 }
+.new-acct{
+    margin-bottom: var(--size-zero-four);
+} 
 
