@@ -20,7 +20,7 @@
     margin-bottom: var(--size-two);
     font-weight: 700;
 }
-.email-info, .pwd-info {
+.email-info, .pwd-info, .pwd-info-cnf  {
     font-size: var(--size-one);
     margin-bottom: var(--size-zero-two);
     font-weight: bold;
