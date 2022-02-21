@@ -1,0 +1,107 @@
+@import "/components/products/men-prod.css";
+
+.cart-container{
+    display: flex;
+    gap: var(--size-two);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-wrapper {
+    display: flex;
+    border: 1px solid var(--gray);
+    width: 40rem;
+    height: 25rem;
+}
+.cart-header {
+    display: flex;
+    height: 10rem;
+    font-weight: var(--size-six);
+    color: var(--color-secondary);
+    padding: var(--size-one);
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-size: var(--size-three);
+}
+
+.card-info {
+    width: 20rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card-img-hz {
+    object-fit: cover;
+    width: 20rem;
+    height: 25rem;
+}
+a.logout {
+    width: var(--size-three-five);
+}
+
+.qty {
+    font-size: var(--size-one-five);
+}
+.ip-qty {
+    border: 1px solid var(--black);
+    width: var(--size-four);
+    padding: 0.1rem;
+    border-radius: var(--size-zero-two);   
+}
+input[type="number"].ip-qty::-webkit-input-placeholder {
+    color: var(--black);
+    font-weight: bold;
+  }
+
+.add-wl-btn, .rmv-btn, .address-btn, .buy-btn {
+    border: 1px solid black;
+    width: 12rem;
+    padding: var(--size-zero-two);
+    font-size: var(--size-one-two);
+    border-radius: var(--size-zero-five);
+    text-align: center;
+    cursor: pointer;
+}
+.address-btn, .rmv-btn {
+    background-color: var(--color-primary);
+    color: var(--white);
+}
+.buy-btn, .add-wl-btn {
+    background-color: var(--color-secondary);
+    color: var(--white);
+}
+.buy-btn {
+    width: 10rem;
+    padding: var(--size-zero-five);
+}
+
+.bill-container {
+    width: 40rem;
+    height: 25rem;
+    border: 1px solid var(--gray);
+    gap: var(--size-two);
+    display: flex;
+    flex-direction: column;
+    padding: var(--size-one);
+}
+.card-info>p>span {
+    color: var(--red);
+}
+
+.flex1, .flex2 {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--size-zero-two);
+}
+
+.flex1 {
+    font-family: var(--font-dosis);
+    font-weight: 700;
+    background-color: var(--color-bg);
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/components/cart-page/cart.css">
+    <title>Cart</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <header class="header">WATCHKART</header>
+        <div class="search-bar"><input type="text" placeholder="search watches and acceso.." class="input-box">
+            <button class="search-btn"><i class="fa fa-search fa-2x"></i></button>
+        </div>
+
+        <div class="nav-cta">
+            <a class="link-btn login-btn logout" href="/index.html">logout</a>
+            <a class="link-btn wishlist" href="/components/wishlist/wishlist.html">
+                <div class="badge-icon-wrap">
+                    <i class="fa-solid fa-heart fa-2x"></i>
+                    <div class="badge"><span class="badge-ic badge-red color-white">2</span></div>
+                </div>
+            </a>
+            <a class="link-btn cart" href="/components/cart-page/cart.html">
+                <div class="badge-icon-wrap">
+                    <i class="fa-solid fa-cart-plus fa-2x"></i>
+                    <div class="badge"><span class="badge-ic badge-red color-white">2</span></div>
+                </div>
+            </a>
+        </div>
+    </nav>
+
+    <!-- cart Heading -->
+    <div class="cart-header"><h1 class="heading">My Cart Items</h1></div>
+
+
+    <div class="cart-container">
+   
+        <div class="card-wrapper">
+            <img src="/asset/rolex.jpg" alt="rolex" class="card-img-hz">
+            <div class="card-info">
+                <h1 class="card-head-hz">Rolex Watch</h1>
+                <p class="margin-bottom-zero-five"><strong>Price: $1800 </strong>
+                     <span>(20% off)</span></p>
+                <label for="" class="qty">Quantity:  <input class="ip-qty" type="number" placeholder="2" name="qty" id=""></label></br>
+                <button class="add-wl-btn">Add to wishlist
+                </button>
+                <button class="rmv-btn">Remove</button>
+            </div>
+        </div>
+
+
+
+    <!-- Item-Bill -->
+
+    <div class="bill-container">
+        <h1>Price summary</h1>
+        <div class="flex1"><p>Total MRP (incl of tax)</p><p>$2000</p>
+
+        </div>
+        <div class="flex1"><p>Delivery Fee</p><p>FREE</p></div>
+        <div class="flex1"><p>Discount</p><p>$200</p></div>
+        <div class="flex1"><p>subtotal</p><p>$1800</p></div>
+        <div class="flex2">
+            <!-- <button class="address-btn">Address</button> -->
+            <button class="buy-btn">Buy now</button>
+        </div>
+
+    </div>
+
+
+    </div>
+
+</body>
+
+</html>
