@@ -24,7 +24,7 @@
         margin-bottom: var(--size-one-five);
     }
 }
-.nav-cta {
+.nav-cta, .menu-bar {
     display: flex;
     gap: var(--size-one);
     align-items: center;
@@ -81,13 +81,16 @@
     border: 1px solid var(--gray);
     padding: var(--size-zero-two);
     background-color: var(--white);
-    border-radius: var(--size-zero-five);
+    border-radius: var(--size-zero-three);
     text-align: center;
     font-size: var(--size-one);
     font-weight: bold;
 }
 a.login-btn {
     color: var(--color-primary);
+}
+a.prod-btn {
+    width: var(--size-five);
 }
 section {
     margin-bottom: var(--size-two);

@@ -59,7 +59,7 @@
     margin-left: 10rem;
     margin-bottom: var(--size-zero-five);
     text-decoration: underline;
-    color: var(--color-primary);
+    color: var(--color-secondary);
 }
 .new-acct{
     margin-bottom: var(--size-zero-four);
