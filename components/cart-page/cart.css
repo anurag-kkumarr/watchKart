@@ -76,8 +76,9 @@ input[type="number"].ip-qty::-webkit-input-placeholder {
     background-color: var(--color-secondary);
     color: var(--white);
 }
-.address-btn, .buy-btn {
-    width: 8rem;
+.buy-btn {
+    width: 10rem;
+    padding: var(--size-zero-five);
 }
 
 .bill-container {
