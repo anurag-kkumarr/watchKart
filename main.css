@@ -44,11 +44,12 @@
     width: 25rem;
     border: 1px solid var(--black);
     border-radius: 1rem;
-    padding: var(--size-zero-five);
+    padding: var(--size-zero-two);
     outline: none;
 }
 .fa-search {
-    font-size: 1.4rem;
+    font-size: 2rem;
+    color: var(--white);
 }
 .search-btn{
     border: 0;
