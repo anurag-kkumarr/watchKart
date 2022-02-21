@@ -9,7 +9,9 @@
     font-weight: 700;
 }
 .email-info, .pwd-info {
+    font-size: var(--size-one);
     margin-bottom: var(--size-zero-five);
+    font-weight: bold;
 }
 .login-layout {
     display: flex;
@@ -20,7 +22,7 @@
     margin: auto;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-primary);
+    
 }
 .email-box {
     margin-bottom: var(--size-two);
@@ -32,7 +34,7 @@
     margin-bottom: var(--size-zero-two);
 }
 div.input-pwd {
-    margin-bottom: 0;
+    margin-bottom: var(--size-zero-two);
 }
 
 .log-in-btn {
@@ -51,7 +53,7 @@ div.input-pwd {
     color: var(--blue);
 }
 .forgot-btn {
-    margin-top: -1rem;
+    margin-top: 1rem;
     margin-left: 10rem;
     margin-bottom: var(--size-two);
     text-decoration: underline;
