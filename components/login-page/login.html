@@ -8,7 +8,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/components/products/men-prod.css">
+    <link rel="stylesheet" href="/components/login-page/login.css">
     <title>HomePage</title>
 </head>
 <body>
@@ -24,7 +24,7 @@
         
         <div class="nav-cta">
          <a class="link-btn login-btn" href="">login</a>
-         <a class="link-btn wishlist" href="/components/wishlist/wishlist.html"><div class="badge-icon-wrap">
+         <a class="link-btn wishlist" href=""><div class="badge-icon-wrap">
             <i class="fa-solid fa-heart fa-2x"></i>
            <div class="badge"><span class="badge-ic badge-red color-white">2</span></div>  
         </div></a>
@@ -34,28 +34,30 @@
         </div></a>
         </div>
     </nav>
-    <main class="main-content">
+    <main class="login-container">
 
-        <!-- Theme Image -->
-        <section class="img-container">
-            <header class="hero-header">
-                <img class="hero-img" src="/asset/tissot 1024w.jpg" alt="tissot">
-            </header>
-        </section>
+        <!-- login-form -->
+        <header class="login-header">Login</header>
 
-        <!-- Product Genre -->
-
-        <section class="prod-genre">
-            <div class="watch-genre">
-                <a href="#"><img class="watch-wm" src="/asset/women-watch.jpg" alt="watch-wm"></a>
-                <div class="prod-gen-title">Women's Bestseller</div>
+        <form action="">
+            <div class="login-layout">
+                    <div class="email-info">Enter Your email id</div>
+                    <input class="input-email" type="email" name="email" id="email" placeholder="anurag.kkumarr@gmail.com">
+                    <div class="pwd-info">Enter Your password</div>
+                    <input class="input-pwd" type="password" placeholder="asdfg@123" name="password" id="password">
+                    <label for="" class="remember-me">
+                    <input type="checkbox" name="remember" id="remember"> Remember me
+                </label></br>
+                <button class="log-in-btn">login</button>
+                <a href="" class="forgot-btn">Forgot password</a>
+                <div class="new-acct">If you are new here... </div>
+                <button class="log-in-btn">sign up</button></br>
+                
             </div>
-            <div class="watch-genre">
-                <a href="/components/products/men-prod.html"><img class="watch-m" src="/asset/mens-watch.jpg" alt="watch-m"></a>
-                <div class="prod-gen-title">men's Bestseller</div>
-            </div>
-        </section>
 
+        </form>
+
+        
     </main>
 </body>
 </html>

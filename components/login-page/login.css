@@ -1,0 +1,67 @@
+@import "/main.css";
+
+.login-layout {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 25rem;
+    border: 1px solid var(--black);
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.login-header {
+    text-align: center;
+    font-size: var(--size-two);
+    font-family: var(--font-dosis);
+    color: var(--color-primary);
+    margin-bottom: var(--size-two);
+    font-weight: 700;
+}
+.email-info, .pwd-info {
+    font-size: var(--size-one);
+    margin-bottom: var(--size-zero-two);
+    font-weight: bold;
+}
+.email-info{
+    margin-right: 6.8rem;
+}
+.pwd-info{
+    margin-right: 6rem;
+}
+
+.input-email, .input-pwd {
+    width: 15rem;
+    border: 1px solid var(--gray);
+    padding: var(--size-zero-five);
+    margin-bottom: var(--size-zero-two);
+}
+
+.log-in-btn {
+    width: 6rem;
+    font-size: var(--size-one-two);
+    border: 1px solid var(--black);
+    padding: var(--size-zero-five);
+    border-radius: var(--size-zero-two);
+    background-color: var(--color-primary);
+    color: var(--white);
+    cursor: pointer;
+    margin:0 auto var(--size-zero-four) auto;
+}
+.remember-me {
+    margin-right: 8rem;
+    color: var(--black);
+}
+.forgot-btn {
+    
+    margin-left: 10rem;
+    margin-bottom: var(--size-zero-five);
+    text-decoration: underline;
+    color: var(--color-secondary);
+}
+.new-acct{
+    margin-bottom: var(--size-zero-four);
+} 
+
