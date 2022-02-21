@@ -4,7 +4,7 @@
     text-align: center;
     font-size: var(--size-two);
     font-family: var(--font-dosis);
-    color: var(--blue);
+    color: var(--color-primary);
     margin-bottom: var(--size-two);
     font-weight: 700;
 }
