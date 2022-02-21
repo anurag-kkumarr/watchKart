@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     width: 40rem;
-    height: 28rem;
+    height: 35rem;
     border: 1px solid var(--black);
     margin: auto;
     align-items: center;
