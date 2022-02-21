@@ -41,9 +41,9 @@ div.input-pwd {
     width: 6rem;
     font-size: var(--size-one-two);
     border: 1px solid var(--black);
-    padding: var(--size-one);
+    padding: var(--size-zero-five);
     border-radius: var(--size-zero-two);
-    background-color: var(--blue);
+    background-color: var(--color-primary);
     color: var(--white);
     cursor: pointer;
     margin:var(--size-zero-five ) auto 0 auto;
@@ -53,11 +53,9 @@ div.input-pwd {
     color: var(--blue);
 }
 .forgot-btn {
-    margin-top: 1rem;
+    margin-top: var(--size-one);
     margin-left: 10rem;
     margin-bottom: var(--size-two);
     text-decoration: underline;
 }
-.new-acct {
-    margin-right: 7rem;
-}
+

@@ -89,6 +89,7 @@
     max-width: 16rem;
     height: 12rem;
     max-height: 14rem;
+    object-fit: cover;
 }
 .card-badge {
   z-index: 1;
